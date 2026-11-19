@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "beer_visuals",
+  "version": "1.2.0",
+  "name": "Beer Visuals",
+  "description": "Beer Visuals — pure visual & HUD client for Minecraft 1.16.5. No cheats.",
+  "authors": ["Beer"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["beerlegit.BeerLegit"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
